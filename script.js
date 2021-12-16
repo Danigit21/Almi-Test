@@ -3,15 +3,16 @@ let hamButtonEl = document.querySelector("#button")
 
 const myFunction = () => {
     if (mobileLinksEl.style.display === "block") {
-        mobileLinksEl.style.display = "none";
+      mobileLinksEl.style.display = "none";
+
     } else {
-        mobileLinksEl.style.display = "block";
+      mobileLinksEl.style.display = "block";
     }
 
     if (hamButtonEl.classList.contains("fa-bars")) {
-        hamButtonEl.classList.replace("fa-bars", "fa-times");
+      hamButtonEl.classList.replace("fa-bars", "fa-times");
     
-      } else {
-        hamButtonEl.classList.replace("fa-times", "fa-bars");
-      }
+    } else {
+      hamButtonEl.classList.replace("fa-times", "fa-bars");
+    }
 }
