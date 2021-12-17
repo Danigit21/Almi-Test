@@ -40,7 +40,7 @@ a:hover {
 
 /* Hamburger menu */
 .ham-button a {
-    color: white;
+    color: black;
     font-size: 25px;
     font-size: 1.5em;
     width: 30px;
@@ -73,7 +73,7 @@ a:hover {
 .ham-menu a {
     display: flex;
     justify-content: right;
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 10px;
     margin: 20px 0px;
